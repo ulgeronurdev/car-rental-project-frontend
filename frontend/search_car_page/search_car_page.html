@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Car</title>
+</head>
+<body>
+
+<h1>Car Rental Service</h1>
+
+<form id="searchCarForm">
+    <label for="brand">Brand:</label>
+    <select id="brand" name="brand">
+        <option value="">Select a Brand</option>
+    </select>
+
+    <label for="type">Type:</label>
+    <select id="type" name="type">
+        <option value="">Select a Type</option>
+    </select>
+
+    <label for="color">Color:</label>
+    <select id="color" name="color">
+        <option value="">Select a Color</option>
+    </select>
+
+    <label for="transmission">Transmission:</label>
+    <select id="transmission" name="transmission">
+        <option value="">Select a Transmission</option>
+    </select>
+
+    <button type="submit">Search Car</button>
+</form>
+
+<div id="searchResults">
+</div>
+
+<script src="searchCar.js"></script>
+</body>
+</html>

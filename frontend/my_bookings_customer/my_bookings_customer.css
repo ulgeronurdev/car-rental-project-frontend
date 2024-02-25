@@ -1,0 +1,14 @@
+
+.booking-entry {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booking-date, .booking-days, .booking-price, .booking-status {
+    margin: 5px;
+}

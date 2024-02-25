@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Car</title>
+</head>
+<body>
+
+<h1>Update Car</h1>
+
+<form id="updateCarForm" enctype="multipart/form-data">
+    <label for="brand">Brand:</label>
+    <select id="brand" name="brand">
+        <!-- Populate these options with your brands -->
+    </select>
+
+    <label for="model">Model:</label>
+    <input type="text" id="model" name="model">
+
+    <label for="type">Type:</label>
+    <select id="type" name="type">
+        <!-- Populate these options with your types -->
+    </select>
+
+    <label for="transmission">Transmission:</label>
+    <select id="transmission" name="transmission">
+        <!-- Populate these options with your transmission types -->
+    </select>
+
+    <label for="color">Color:</label>
+    <select id="color" name="color">
+        <!-- Populate these options with your colors -->
+    </select>
+
+    <label for="year">Year:</label>
+    <input type="number" id="year" name="year">
+
+    <label for="price">Price:</label>
+    <input type="number" id="price" name="price">
+
+    <label for="description">Description:</label>
+    <textarea id="description" name="description"></textarea>
+
+    <label for="image">Car Image:</label>
+    <input type="file" id="image" name="image">
+
+    <button type="submit">Update</button>
+</form>
+
+<script src="updateCar.js"></script>
+</body>
+</html>

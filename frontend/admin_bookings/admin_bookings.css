@@ -1,0 +1,24 @@
+.booking-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.booking-row > div {
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}

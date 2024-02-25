@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Service - Dashboard</title>
+    <style>
+        .car-item {
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .car-image {
+            width: 100px;
+            height: auto;
+        }
+        .car-details {
+            display: flex;
+            align-items: center;
+        }
+        .car-info {
+            margin-left: 10px;
+        }
+        .car-actions {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Car Rental Service</h1>
+    <nav>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/bookings">Bookings</a>
+        <a href="/search">Search</a>
+        <button id="logout">Logout</button>
+    </nav>
+</header>
+
+<main id="car-list">
+</main>
+
+<script src="dashboard.js"></script>
+</body>
+</html>
